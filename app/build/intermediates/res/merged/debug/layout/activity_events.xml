@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/lvEvents"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:divider="@color/light_gray_full"
+        android:dividerHeight="0.5dp"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/ivEmptyView"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@null"
+        android:gravity="center"
+        android:src="@drawable/no_items" />
+
+    <com.virtugos.uberapp.component.MyFontButton
+        android:id="@+id/btnAddEvent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/light_theme"
+        android:paddingBottom="@dimen/signin_button_padding"
+        android:paddingTop="@dimen/signin_button_padding"
+        android:minHeight="0dp"
+        android:text="@string/text_add_event"
+        android:textColor="@color/white" />
+
+</LinearLayout>

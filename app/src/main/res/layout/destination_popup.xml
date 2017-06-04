@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/activity_margin_register" >
+
+        <AutoCompleteTextView
+            android:id="@+id/etPopupDestination"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:drawableLeft="@drawable/search_icon"
+            android:drawablePadding="5dp"
+            android:hint="@string/hint_search_destination"
+            android:imeOptions="actionDone"
+            android:inputType="textNoSuggestions"
+            android:paddingLeft="10dp"
+            android:paddingRight="2dp"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="@dimen/size_general_small" >
+
+            <requestFocus />
+        </AutoCompleteTextView>
+
+        <ImageView
+            android:id="@+id/imgClearDest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/feedback_padding"
+           android:src="@drawable/close_payment"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="0.5dp"
+        android:background="@color/light_gray_full" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_fp_margin"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/layoutHomeText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="@dimen/dot_fare_estimate_size"
+                android:layout_height="@dimen/dot_fare_estimate_size"
+                android:layout_marginLeft="@dimen/dimen_fp_margin"
+                android:layout_marginRight="@dimen/activity_margin_register"
+                android:layout_marginTop="@dimen/activity_margin_register"
+                android:src="@drawable/dot_fare_estimate_design" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <com.virtugos.uberapp.component.MyFontTextViewMedium
+                    android:id="@+id/tvLblHome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="2dp"
+                    android:singleLine="true"
+                    android:text="@string/text_home"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/size_general" />
+
+                <com.virtugos.uberapp.component.MyFontTextView
+                    android:id="@+id/tvHomeAddress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="2dp"
+                    android:singleLine="true"
+                    android:text="@string/hint_home"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/size_general_small" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/btnEditHome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:padding="@dimen/dimen_fp_margin"
+                android:src="@drawable/arrow_icon_fare_estimate"
+                android:visibility="visible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutHomeEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="@dimen/activity_margin_register"
+            android:visibility="visible" >
+
+            <AutoCompleteTextView
+                android:id="@+id/etHomeAddress"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@null"
+                android:drawableLeft="@drawable/search_icon"
+                android:drawablePadding="5dp"
+                android:hint="@string/text_home"
+                android:imeOptions="actionDone"
+                android:inputType="textNoSuggestions"
+                android:paddingLeft="10dp"
+                android:paddingRight="2dp"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/size_general" >
+
+                <requestFocus />
+            </AutoCompleteTextView>
+
+            <TextView
+                android:id="@+id/imgClearHome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/feedback_padding"
+                android:text="X"
+                android:textSize="@dimen/size_dialog_notification"
+                android:textColor="@color/light_gray"
+                android:visibility="visible"  />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_fp_margin"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/layoutWorkText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="@dimen/dot_fare_estimate_size"
+                android:layout_height="@dimen/dot_fare_estimate_size"
+                android:layout_marginLeft="@dimen/dimen_fp_margin"
+                android:layout_marginRight="@dimen/activity_margin_register"
+                android:layout_marginTop="@dimen/activity_margin_register"
+                android:src="@drawable/dot_fare_estimate_design" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <com.virtugos.uberapp.component.MyFontTextViewMedium
+                    android:id="@+id/tvLblHome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="2dp"
+                    android:singleLine="true"
+                    android:text="@string/text_work"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/size_general" />
+
+                <com.virtugos.uberapp.component.MyFontTextView
+                    android:id="@+id/tvWorkAddress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvLblHome"
+                    android:background="@null"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="2dp"
+                    android:singleLine="true"
+                    android:text="@string/hint_work"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/size_general_small" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/btnEditWork"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:padding="@dimen/dimen_fp_margin"
+                android:src="@drawable/arrow_icon_fare_estimate"
+                android:visibility="visible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutWorkEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="@dimen/activity_margin_register"
+            android:visibility="gone" >
+
+            <AutoCompleteTextView
+                android:id="@+id/etWorkAddress"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@null"
+                android:drawableLeft="@drawable/search_icon"
+                android:drawablePadding="5dp"
+                android:hint="@string/text_work"
+                android:imeOptions="actionDone"
+                android:inputType="textNoSuggestions"
+                android:paddingLeft="10dp"
+                android:paddingRight="2dp"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/size_general" >
+
+                <requestFocus />
+            </AutoCompleteTextView>
+
+            <TextView
+                android:id="@+id/imgClearWork"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/feedback_padding"
+                android:text="X"
+                android:textSize="@dimen/size_dialog_notification"
+                android:textColor="@color/light_gray"
+                android:visibility="visible"  />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="@dimen/dimen_fp_margin_top"
+        android:background="@color/light_gray_full" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ProgressBar
+            android:id="@+id/pbNearby"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+
+        <ListView
+            android:id="@+id/nearByList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@color/light_gray_full"
+            android:dividerHeight="0.5dp"
+            android:visibility="gone" >
+        </ListView>
+    </RelativeLayout>
+
+</LinearLayout>

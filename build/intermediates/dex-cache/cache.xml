@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Cesar\Documents\Github\Cab Anytime\app\libs\android-query.0.26.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="aa997823bc89263500714864ff136de1e6025b4e">
+        <dex dex="C:\Users\Cesar\Documents\Github\Cab Anytime\app\build\intermediates\transforms\dex\debug\folders\1000\2\android-query.0.26.7_2750132ad881d9a29a098b583e2032d5acf4c6aa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Cesar\Documents\Android\android-sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.0\support-annotations-25.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="C:\Users\Cesar\Documents\Github\Cab Anytime\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.1.0_c9cb18f4e96654cf7d97f36e6b1dc1913cd7817e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Cesar\Documents\Github\Cab Anytime\app\libs\httpclient-4.3.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9783d89b8eea20a517a4afc5f979bd2882b54c44">
+        <dex dex="C:\Users\Cesar\Documents\Github\Cab Anytime\app\build\intermediates\transforms\dex\debug\folders\1000\2\httpclient-4.3.5_b063cbcd53ac869f3a48549e9c77a184f8a25be5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\César\.android\build-cache\78de93443915c165645e0d933f55c3319cd865f4\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="cc178928721f3222b3b06bdfbd9497378ccb9792">
+        <dex dex="C:\Users\Cesar\Documents\Github\Cab Anytime\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_07ae03434dd9b5677791e55c38e6c4aab3530f51\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Cesar\Documents\Github\Cab Anytime\app\libs\httpcore-4.3.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="31fbbff1ddbf98f3aa7377c94d33b0447c646b6e">
+        <dex dex="C:\Users\Cesar\Documents\Github\Cab Anytime\app\build\intermediates\transforms\dex\debug\folders\1000\2\httpcore-4.3.2_08c5ea280763020b1da09b64d48c40a41df30744\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Cesar\Documents\Github\Cab Anytime\app\libs\apache-mime4j-core-0.7.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a81264fe0265ebe8fd1d8128aad06dc320de6eef">
+        <dex dex="C:\Users\Cesar\Documents\Github\Cab Anytime\app\build\intermediates\transforms\dex\debug\folders\1000\2\apache-mime4j-core-0.7.2_585f6dd31fb0b09038550d6bf7b5c549efac879b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Cesar\Documents\Github\Cab Anytime\app\libs\mobile.connect-android-1.7.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6381ac7870074b58185f0033c4508a0013a9adaf">
+        <dex dex="C:\Users\Cesar\Documents\Github\Cab Anytime\app\build\intermediates\transforms\dex\debug\folders\1000\2\mobile.connect-android-1.7.2_b511013ea3a63df21ea444f96c709f34187978b8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Cesar\Documents\Github\Cab Anytime\app\libs\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4def3fa5f94fc91a0a86d729b74ce14b1a9211f5">
+        <dex dex="C:\Users\Cesar\Documents\Github\Cab Anytime\app\build\intermediates\transforms\dex\debug\folders\1000\2\classes_dcaea5500876fb7d7154c9a9619007d5dd6a2f12\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Cesar\Documents\Github\Cab Anytime\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="C:\Users\Cesar\Documents\Github\Cab Anytime\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_d09f7dcfbddfc61a401b169b2731db05f32228e3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Cesar\Documents\Github\Cab Anytime\app\libs\android-support-v7-recyclerview.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0b5adf926c097329904a2f263e7b51f259020634">
+        <dex dex="C:\Users\Cesar\Documents\Github\Cab Anytime\app\build\intermediates\transforms\dex\debug\folders\1000\2\android-support-v7-recyclerview_091de9d5e57c7febbd72b457a97aa9b2974676f0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Cesar\Documents\Github\Cab Anytime\facebookSDK\build\intermediates\bundles\default\libs\bolts-android-1.1.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7b469c3daeb365261419cebcc3d8ef2ad31b00e">
+        <dex dex="C:\Users\Cesar\Documents\Github\Cab Anytime\app\build\intermediates\transforms\dex\debug\folders\1000\8\bolts-android-1.1.2_66f1dbf17c0d65ccaeaa627e5f083a13fb79092f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\César\.android\build-cache\5034e230574ded66b35cd85626a3d2e26fabcca1\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="42df48c7305b08b14fa0e84561091b0c24d70d26">
+        <dex dex="C:\Users\Cesar\Documents\Github\Cab Anytime\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8f8dd486cb5401d2175701e2668fad1010ef6a6a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Cesar\Documents\Github\Cab Anytime\app\libs\splunk-mint-4.0.8.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="19452a9f6424ddae60c51f97e93cb9bec3dddfd2">
+        <dex dex="C:\Users\Cesar\Documents\Github\Cab Anytime\app\build\intermediates\transforms\dex\debug\folders\1000\2\splunk-mint-4.0.8_41861c9f2b66a218e30e0dd8e536f1158fb9d6f2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\César\.android\build-cache\6a2d3a2e13203b79caebacdce7012f0ef77cbfa1\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="005786793d72c6deacbbbfd38177ed58e1aa6653">
+        <dex dex="C:\Users\Cesar\Documents\Github\Cab Anytime\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9b476cdbed143414a0799465edb8ebaad4fef448\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\César\.android\build-cache\cf07708221c3903749a6e6b44fe82b72a4c66222\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fd2d3bfea24a25023d1e3b04fb3218120cc067f4">
+        <dex dex="C:\Users\Cesar\Documents\Github\Cab Anytime\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_245916bb85283bded1923c27e8dfd3d8ff200aa6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\César\.android\build-cache\9128c22962879cd1cbbd9c7348a137cb977d16ed\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1941832901fc4e7a93300b53762e9f65d7650b99">
+        <dex dex="C:\Users\Cesar\Documents\Github\Cab Anytime\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d2b1f3589eb99a5c9eebc801fbe3c0511c0ddebf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\César\.android\build-cache\642df92b8b928f63f79385b36e9ff6db61e709fc\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ea4b54dcbfe5ac05efb0a314105f07258118d3a7">
+        <dex dex="C:\Users\Cesar\Documents\Github\Cab Anytime\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_94f886ed2ad90ee4e5be531f8f91ca426702f3ab\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Cesar\Documents\Github\Cab Anytime\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6003b3a635b2de1d2d9272129c124c21c46be00e">
+        <dex dex="C:\Users\Cesar\Documents\Github\Cab Anytime\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_8645251330281061a68c1ef89eda59af717b153b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Cesar\Documents\Github\Cab Anytime\app\libs\simple.facebook-2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9a197f31cff950884d322ee0bd6bf3b15a221e32">
+        <dex dex="C:\Users\Cesar\Documents\Github\Cab Anytime\app\build\intermediates\transforms\dex\debug\folders\1000\2\simple.facebook-2.1_218772089bdb5205aa55e0a1ad8641964f1b3bf5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Cesar\Documents\Github\Cab Anytime\app\libs\httpmime-4.3.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1dd0d38df9c6d21e893f2e52403f1cd99e91cd81">
+        <dex dex="C:\Users\Cesar\Documents\Github\Cab Anytime\app\build\intermediates\transforms\dex\debug\folders\1000\2\httpmime-4.3.5_edbebfe624bf19d415d828ede1b0a0340aaea7d4\classes.dex" />
+    </item>
+
+</items>

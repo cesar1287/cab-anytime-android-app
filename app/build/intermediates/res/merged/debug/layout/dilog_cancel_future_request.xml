@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/activity_margin_register" >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="4"
+    android:layout_marginTop="@dimen/activity_horizontal_margin"
+    android:layout_marginBottom="@dimen/activity_horizontal_margin"
+    android:orientation="horizontal">
+    <com.virtugos.uberapp.component.MyFontTextView
+        android:id="@+id/reason1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3.5"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:text="@string/select_any_resion"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_weight="0.5"
+        android:id="@+id/ivCloseDialog"
+        android:layout_height="wrap_content"
+        android:src="@drawable/close_payment"
+        android:layout_gravity="right"/>
+</LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" >
+
+        <com.virtugos.uberapp.component.MyFontTextView
+            android:id="@+id/reason1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:text="@string/text_driver_delayed"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/r1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/reason1"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true" />
+
+        <!-- <CheckBox -->
+        <!-- android:layout_width="wrap_content" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_alignBottom="@id/reason1" -->
+        <!-- android:layout_alignParentEnd="true" -->
+        <!-- android:layout_alignParentRight="true" /> -->
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" >
+
+        <com.virtugos.uberapp.component.MyFontTextView
+            android:id="@+id/reason2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@id/reason1"
+            android:layout_alignRight="@id/reason1"
+            android:layout_below="@id/reason1"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:text="@string/text_i_changed_mind"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/r2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/reason2"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true" />
+
+        <!-- <CheckBox -->
+        <!-- android:layout_width="wrap_content" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_alignBottom="@id/reason2" -->
+        <!-- android:layout_alignParentEnd="true" -->
+        <!-- android:layout_alignParentRight="true" /> -->
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <com.virtugos.uberapp.component.MyFontTextView
+            android:id="@+id/reason3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@id/reason2"
+            android:layout_alignRight="@id/reason2"
+            android:layout_below="@id/reason2"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:text="@string/text_book_another"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/r3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/reason3"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true" />
+
+        <!-- <CheckBox -->
+        <!-- android:layout_width="wrap_content" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_alignBottom="@id/reason3" -->
+        <!-- android:layout_alignParentEnd="true" -->
+        <!-- android:layout_alignParentRight="true" /> -->
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:gravity="bottom"
+        android:orientation="horizontal" >
+
+        <com.virtugos.uberapp.component.MyFontButton
+            android:id="@+id/btnOk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/light_theme"
+            android:gravity="center"
+            android:text="@string/text_ok"
+            android:textColor="@color/white"
+            android:textSize="@dimen/size_general" />
+    </LinearLayout>
+
+</LinearLayout>
